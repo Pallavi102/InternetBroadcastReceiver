@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity(),ConnectionReceiver.ConnectionReceiverLi
         }
         else
         {
-            binding.connected.visibility = View.VISIBLE
-            binding.notConnected.visibility = View.INVISIBLE
+            binding.connected.visibility = View.INVISIBLE
+            binding.notConnected.visibility = View.VISIBLE
         }
     }
     override fun onCreate(savedInstanceState: Bundle?) {
